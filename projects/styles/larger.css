@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+  #menu {
+    display: none;
+  }
+
+  #nav-links {
+    display: flex !important;
+    gap: 1rem;
+  }
+
+  #nav-links li {
+    margin: 0;
+  }
+
+  main {
+    max-width: 900px;
+    margin: auto;
+  }
+}

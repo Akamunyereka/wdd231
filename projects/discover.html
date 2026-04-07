@@ -1,14 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Discover attractions, culture, and opportunities in Kampala.">
+  <meta name="author" content="Kevin Akamunyereka">
+
+  <title>Discover Kampala</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- JS -->
+  <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <button id="menu">☰</button>
+    <ul id="nav-links" class="hidden">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul>
+  </nav>
+</header>
+
 <main>
-  <h2>Discover Kampala</h2>
-  <p>Kampala is the capital city of Uganda, known for its vibrant culture and business opportunities.</p>
+  <h1>Discover Kampala</h1>
 
   <section>
-    <h3>History</h3>
-    <p>Rich cultural and historical background...</p>
+    <h2>About Kampala</h2>
+    <p>Kampala is the capital city of Uganda, known for its vibrant culture, growing business environment, and welcoming community.</p>
+  </section>
+
+  <section class="discover-grid">
+    <h2>Places to Explore</h2>
+
+    <div class="card">
+      <img src="images/cityview1.jpg" alt="City view of Kampala">
+      <h3>City Life</h3>
+      <p>Experience the fast-growing urban lifestyle and business opportunities.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/cultural1.jpg" alt="Cultural site in Kampala">
+      <h3>Culture</h3>
+      <p>Explore rich traditions, food, and heritage.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/market1.jpg" alt="Local market">
+      <h3>Markets</h3>
+      <p>Visit bustling local markets full of energy and trade.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/nature1.jpg" alt="Nature in Kampala">
+      <h3>Nature</h3>
+      <p>Enjoy green spaces and nearby natural attractions.</p>
+    </div>
+
   </section>
 
   <section>
-    <h3>Gallery</h3>
-    <img src="images/city.jpg" loading="lazy" alt="Kampala city">
+    <h2>Visit Info</h2>
+    <p id="visit-message"></p>
   </section>
+
 </main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Kampala Chamber</p>
+  <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
+
+</body>
+</html>
